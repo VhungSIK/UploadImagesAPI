@@ -16,12 +16,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
+            android:textSize="14sp"
             android:hint="Username"/>
         <EditText
             android:id="@+id/edt_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
+            android:textSize="14sp"
             android:textColor="@color/black"
             android:hint="Password"/>
         <ImageView
@@ -78,5 +80,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"/>
+
     </LinearLayout>
 </ScrollView>
